@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package walkie.api.gateway;
+
+service WalkieApiGateway {
+    rpc Login(Request) returns (Response) {}
+}
+
+message Request {
+
+}
+
+message Response {
+
+}
